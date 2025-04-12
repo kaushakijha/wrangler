@@ -1,0 +1,13 @@
+1. How to extend ANTLR grammar to support custom unit types like KB, MB, ms, s, h in a DSL?
+2. Best way to parse and normalize human-readable byte sizes (e.g., 1.5MB, 10KB) to bytes in Java?
+3. How to create reusable Java classes for unit parsing like ByteSize and TimeDuration with precision?
+4. What's the recommended structure to extend CDAP Wrangler to support new token types?
+5. How does ExecutorContext in CDAP Wrangler work for aggregation across rows?
+6. What’s the cleanest way to implement a new aggregate directive using CDAP's Directive interface?
+7. How to write ANTLR lexer rules for case-insensitive units like "ms", "MS", or "Mb", "MB"?
+8. How to create JUnit tests for token parsers that convert units and validate round-off cases?
+9. What are best practices to integrate new parser tokens into an existing ANTLR-based DSL engine?
+10. How to simulate Wrangler recipe execution using TestingRig for directive-level unit testing?
+11. Should I use 1024 or 1000 as multiplier in byte size conversion — what do industry standards recommend?
+12. How to cleanly finalize aggregated results in CDAP pipelines and return custom columns?
+13. What are the typical edge cases when parsing byte sizes and time durations from raw strings?

@@ -279,4 +279,3 @@ String[] recipe = new String[] {
 Assert.assertEquals(1, results.size());
 Assert.assertEquals(expectedTotalSizeInMB, results.get(0).getValue("total_size_mb"), 0.001);
 Assert.assertEquals(expectedTotalTimeInSeconds, results.get(0).getValue("total_time_sec"), 0.001);
-
